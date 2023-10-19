@@ -1,10 +1,16 @@
 
-  "name": "code",
+  "name": "rest-api",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "author": "Aiman kazi",
+  "main": "index.js",
+  "scripts": 
+   "dev": "nodemon index.js"
+  ,
+  "author": "",
+  "license": "ISC",
   "dependencies": 
-    "chalk": "^4.1.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
-    "morgan": "^1.10.0"
+    "nodemon": "^3.0.1"
+  
